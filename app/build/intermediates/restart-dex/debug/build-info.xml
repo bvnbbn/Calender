@@ -5,22 +5,26 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="43764771865884"
+    timestamp="44150974378730"
     token="-7258625232949409328"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="408" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="34" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="23" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2" />
+
+    <artifact
+        location="/home/vikas/Desktop/Calender/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         timestamp="43488208050167"
@@ -37,7 +41,11 @@
             type="DEX" />
     </build>
     <build
-        timestamp="43764771865884"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="44150974378730"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/vikas/Desktop/Calender/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
 
 </instant-run>

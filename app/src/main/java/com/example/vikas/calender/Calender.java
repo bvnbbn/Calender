@@ -381,7 +381,7 @@ public class Calender extends Activity
                 mOutputText.setText("No results returned.");
             } else {
 
-               for(int i=0;i<output.size();i++)
+            /*   for(int i=0;i<output.size();i++)
                 {
                     TableRow newRow= new TableRow(Calender.this);
                     TextView textView=new TextView(Calender.this);
@@ -390,9 +390,9 @@ public class Calender extends Activity
                     newRow.addView(textView);
                     tb1.addView(newRow);
 
-                }
+                }*/
 
-              // mOutputText.setText(TextUtils.join("\n \n", output));
+              mOutputText.setText(TextUtils.join("\n \n", output));
 
             }
         }
