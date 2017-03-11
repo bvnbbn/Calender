@@ -1,0 +1,7 @@
+#Sat Mar 11 21:33:26 IST 2017
+base.0=/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_940927b17276d7a7fa00c13e29f3e7aa5e3a6037
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_739c7c1f79453da51b5b7088202f71a32b859d87/classes.dex
+base.1=/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_739c7c1f79453da51b5b7088202f71a32b859d87
+file.0=/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_940927b17276d7a7fa00c13e29f3e7aa5e3a6037/classes.dex

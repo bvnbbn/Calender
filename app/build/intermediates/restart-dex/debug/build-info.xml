@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="23885971204556"
+    token="-7258625232949409328"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="468" />
+    <task
+        name="instant-run-dex"
+        duration="62" />
+    <task
+        name="instant-run-transform"
+        duration="18" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="/home/vikas/Desktop/Calender/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="23194593756437"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/vikas/Desktop/Calender/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="23783592227939"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="23885971204556"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/vikas/Desktop/Calender/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="266883a68de979a42896a87d287d81b2020f8a94">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_739c7c1f79453da51b5b7088202f71a32b859d87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev236-1.22.0/18e6659ba44bf547f49cc37382fd7b2c8488e069/google-api-services-calendar-v3-rev236-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="18e6659ba44bf547f49cc37382fd7b2c8488e069">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-services-calendar-v3-rev236-1.22.0_3b995276c04c20aec3b9eff9ee4ee67cad476d4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_db6ff3c6b38df39567788ed9cdf5720c4f6b94ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_c193d3b459e4fea516cf2c037bede846a3847cdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_05e81a70c424394702cfdf22ebb2699ecf7fc27e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8a382975601d5efc63b1e1110346e150a44ff26e">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_940927b17276d7a7fa00c13e29f3e7aa5e3a6037/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_44a121da283465ded42b9fda2633d23517e9a8e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_61a080ec9990afe2cee333f8029068e86387549b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.22.0/6d1e1a76a16a244ab2f41775791be1dd0ec2878a/google-http-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6d1e1a76a16a244ab2f41775791be1dd0ec2878a">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-android-1.22.0_0edfc196ff114a0e08edc2068c5b3aa9795b503c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_e4010bfe14e3fc383d2c44fa44e64f7020937f9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.22.0/1d63f369ac78e4838a3197147012026e791008cb/google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-1.22.0_55a7f265f74fb2f0ed2602a9d5153575df8605a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-jdk5-17.0_be8a8e254e9fbe520eeb8a06940d71460a77fb4c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_7fca88cd08fb62b2c9f5cc4e3340186e891cbb29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_9db444d5b6799b6620840a053b6af4e7cbc07eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.22.0/cc014d64ae11117e159d334c99d9c246d9b36f44/google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-jackson2-1.22.0_870af03a3382f05d286432520965fd50c59b33ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/d441fc58329c4a4c067acec04ac361627f66ecc8/google-http-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-1.22.0_e8eba0a8b3d4b1c3577c66957290ba18243519b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.22.0/7a0fe12b7d8189a821934d6f9d6586d00180e461/google-api-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a0fe12b7d8189a821934d6f9d6586d00180e461">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-android-1.22.0_3c4b01ab511687874fe31460f0e3243f2aa4855e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_41fa13c2d8f7fde20bbb85c210d3129f6b4a0d00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_74ba4fea6719be516f36990f469513842720d8e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_1430e4a27c8c98cd84c99d7d0ef22fdbb9ed2a64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.22.0/244350c0c845c583717ade13f5666a452fd0cfa/google-api-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-1.22.0_32ba4fb46582defb60e5ab4138b2f8393084e84f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_a5114a78db8f0ab21687f42e169d9f535191ed60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_61d5b8ac4f2192bd70e466781f682c34f65fd997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_446ac2c481b97310f43724f83cdead467c49dfc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_0f16228a26efd9f731a6b9dd91166b68e946c557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/pub.devrel/easypermissions/0.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c62423966e97071131e9c16d89ffaa003fe6a5d1">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/pub.devrel-easypermissions-0.2.1_68032930b5091f0b049f00e88d199633bc775908/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.1.3_64ecb5b2ae279998dc15ee5c40083fcc18e295d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vikas/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_90f1be90cabc248d924851339c40bf13a76aed9e/classes.dex" />
+    </item>
+
+</items>
