@@ -607,7 +607,6 @@ int id expand_activities_button 0x7f0b0030
 int id expanded_menu 0x7f0b0045
 int id home 0x7f0b0004
 int id homeAsUp 0x7f0b000d
-int id homeRuns 0x7f0b007a
 int id icon 0x7f0b0034
 int id icon_group 0x7f0b0072
 int id icon_only 0x7f0b0024
@@ -677,7 +676,6 @@ int id top 0x7f0b002b
 int id topPanel 0x7f0b0041
 int id up 0x7f0b0008
 int id useLogo 0x7f0b0012
-int id visitorRuns 0x7f0b0079
 int id wide 0x7f0b0026
 int id withText 0x7f0b0023
 int id wrap_content 0x7f0b0019

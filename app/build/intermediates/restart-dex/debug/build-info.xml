@@ -5,40 +5,39 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="41263631031638"
+    timestamp="43764771865884"
     token="-7258625232949409328"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="536" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="72" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
-
-    <artifact
-        location="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-        type="DEX" />
+        duration="0" />
 
     <build
-        timestamp="40894447823785"
+        timestamp="43488208050167"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/vikas/Desktop/Calender/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="41263631031638"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="43706349300020"
+        verifier="METHOD_DELETED" >
         <artifact
             location="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
             type="DEX" />
     </build>
+    <build
+        timestamp="43764771865884"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

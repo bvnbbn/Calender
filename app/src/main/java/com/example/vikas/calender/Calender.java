@@ -84,7 +84,7 @@ public class Calender extends Activity
             @Override
             public void onClick(View v) {
                 mCallApiButton.setEnabled(false);
-                mOutputText.setText("");
+              //  mOutputText.setText("");
                 getResultsFromApi();
                 mCallApiButton.setEnabled(true);
             }
@@ -381,18 +381,18 @@ public class Calender extends Activity
                 mOutputText.setText("No results returned.");
             } else {
 
-              /*  for(int i=0;i<output.size();i++)
+               for(int i=0;i<output.size();i++)
                 {
-                    TableRow newRow= new TableRow(getApplicationContext());
-                    TextView textView=new TextView(getApplicationContext());
-                    textView.setText(output.get(i).toString());
+                    TableRow newRow= new TableRow(Calender.this);
+                    TextView textView=new TextView(Calender.this);
+                    textView.setText(output.get(i).toString()+"\n \n");
 
                     newRow.addView(textView);
                     tb1.addView(newRow);
 
-                }*/
+                }
 
-               mOutputText.setText(TextUtils.join("\n \n", output));
+              // mOutputText.setText(TextUtils.join("\n \n", output));
 
             }
         }

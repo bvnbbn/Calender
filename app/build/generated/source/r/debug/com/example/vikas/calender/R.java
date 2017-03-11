@@ -1980,7 +1980,6 @@ containing a value of this type.
         public static final int expanded_menu=0x7f0b0045;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
-        public static final int homeRuns=0x7f0b007a;
         public static final int icon=0x7f0b0034;
         public static final int icon_group=0x7f0b0072;
         public static final int icon_only=0x7f0b0024;
@@ -2050,7 +2049,6 @@ containing a value of this type.
         public static final int topPanel=0x7f0b0041;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
-        public static final int visitorRuns=0x7f0b0079;
         public static final int wide=0x7f0b0026;
         public static final int withText=0x7f0b0023;
         public static final int wrap_content=0x7f0b0019;
