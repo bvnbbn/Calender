@@ -80,7 +80,7 @@ public class Calender extends Activity
 
 
         mCallApiButton.setText(BUTTON_TEXT);
-        mCallApiButton.setOnClickListener(new View.OnClickListener() {
+       mCallApiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mCallApiButton.setEnabled(false);
@@ -88,7 +88,7 @@ public class Calender extends Activity
                 getResultsFromApi();
                 mCallApiButton.setEnabled(true);
             }
-        });
+       });
 
 
 
@@ -381,7 +381,7 @@ public class Calender extends Activity
                 mOutputText.setText("No results returned.");
             } else {
 
-                for(int i=0;i<output.size();i++)
+              /*  for(int i=0;i<output.size();i++)
                 {
                     TableRow newRow= new TableRow(getApplicationContext());
                     TextView textView=new TextView(getApplicationContext());
@@ -390,10 +390,9 @@ public class Calender extends Activity
                     newRow.addView(textView);
                     tb1.addView(newRow);
 
-                }
+                }*/
 
-                //output.add(0, "Data retrieved using the Google Calendar API:");
-              //  mOutputText.setText(TextUtils.join("\n \n", output));
+               mOutputText.setText(TextUtils.join("\n \n", output));
 
             }
         }
@@ -409,7 +408,7 @@ public class Calender extends Activity
                 } else if (mLastError instanceof UserRecoverableAuthIOException) {
                     startActivityForResult(
                             ((UserRecoverableAuthIOException) mLastError).getIntent(),
-                            MainActivity.REQUEST_AUTHORIZATION);
+                            Calender.REQUEST_AUTHORIZATION);
                 } else {
                     mOutputText.setText("The following error occurred:\n"
                             + mLastError.getMessage());
