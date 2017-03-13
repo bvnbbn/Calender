@@ -5,47 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="44150974378730"
+    timestamp="17250638022241"
     token="-7258625232949409328"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="408" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="34" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
     <artifact
-        location="/home/vikas/Desktop/Calender/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/home/vikas/Desktop/Calender/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="43488208050167"
+        timestamp="17250638022241"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/vikas/Desktop/Calender/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="43706349300020"
-        verifier="METHOD_DELETED" >
-        <artifact
-            location="/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="44150974378730"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/vikas/Desktop/Calender/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

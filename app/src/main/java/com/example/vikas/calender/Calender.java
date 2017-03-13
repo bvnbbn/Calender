@@ -12,6 +12,7 @@ import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.client.util.ExponentialBackOff;
 
+import com.google.api.client.util.StreamingContent;
 import com.google.api.services.calendar.CalendarScopes;
 import com.google.api.client.util.DateTime;
 
@@ -39,6 +40,7 @@ import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -53,7 +55,9 @@ public class Calender extends Activity
     GoogleAccountCredential mCredential;
     private TextView mOutputText;
     private Button mCallApiButton;
+    private TableLayout tb1;
     ProgressDialog mProgress;
+ //   int i;
 
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
@@ -76,6 +80,7 @@ public class Calender extends Activity
 
         mCallApiButton=(Button)findViewById(R.id.button_0) ;
         mOutputText=(TextView) findViewById(R.id.text1);
+        tb1 = (TableLayout)findViewById(R.id.table1);
 
 
 
@@ -103,7 +108,10 @@ public class Calender extends Activity
     }
 
 
+    void table()
+    {
 
+    }
     /**
      * Attempt to call the API, after verifying that all the preconditions are
      * satisfied. The preconditions are: Google Play Services installed, an
@@ -302,6 +310,39 @@ public class Calender extends Activity
         dialog.show();
     }
 
+
+
+    void table(final List<String> output)
+    {
+        int i;
+        for( i=0;i<output.size();i++)
+        {
+            TableRow newRow= new TableRow(Calender.this);
+            TextView textView=new TextView(Calender.this);
+            textView.setText(output.get(i).toString()+"\n \n");
+
+            newRow.addView(textView);
+            final int finalI = i;
+            newRow.setOnClickListener(new View.OnClickListener()
+            {
+                @Override
+                public void onClick(View v)
+                {
+                    // tr.setBackgroundColor(color.holo_blue_light);
+                  //  Toast.makeText(getApplicationContext(),output.get(finalI), Toast.LENGTH_SHORT).show();
+                    Intent intent =new Intent(getApplicationContext(),DetailActivity.class)
+                            .putExtra(Intent.EXTRA_TEXT,output.get(finalI) );
+                    startActivity(intent);
+                }
+            });
+
+            tb1.addView(newRow);
+
+        }
+
+    }
+
+
     /**
      * An asynchronous task that handles the Google Calendar API call.
      * Placing the API calls in their own task ensures the UI stays responsive.
@@ -311,7 +352,6 @@ public class Calender extends Activity
         private Exception mLastError = null;
 
 
-        TableLayout tb1 = (TableLayout)findViewById(R.id.table1);
 
         MakeRequestTask(GoogleAccountCredential credential) {
             HttpTransport transport = AndroidHttp.newCompatibleTransport();
@@ -375,24 +415,16 @@ public class Calender extends Activity
         }
 
         @Override
-        protected void onPostExecute(List<String> output) {
+        protected void onPostExecute(final List<String> output) {
             mProgress.hide();
             if (output == null || output.size() == 0) {
                 mOutputText.setText("No results returned.");
-            } else {
+            } else
+            {
+               table(output);
 
-            /*   for(int i=0;i<output.size();i++)
-                {
-                    TableRow newRow= new TableRow(Calender.this);
-                    TextView textView=new TextView(Calender.this);
-                    textView.setText(output.get(i).toString()+"\n \n");
 
-                    newRow.addView(textView);
-                    tb1.addView(newRow);
-
-                }*/
-
-              mOutputText.setText(TextUtils.join("\n \n", output));
+                //mOutputText.setText(TextUtils.join("\n \n", output));
 
             }
         }

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:6:5-71
 	android:name
 		ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:6:22-68
 application
-ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:9:5-22:19
+ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:9:5-27:19
 MERGED from [com.google.android.gms:play-services-auth:10.0.1] /home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-base:10.0.1] /home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
@@ -65,6 +65,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.vikas.calender.DetailActivity
+ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:23:9-26:20
+	android:name
+		ADDED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml:24:13-43
 uses-sdk
 INJECTED from /home/vikas/Desktop/Calender/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-auth:10.0.1] /home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/AndroidManifest.xml:17:5-42

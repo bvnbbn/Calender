@@ -80,6 +80,10 @@
         "source": "/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/abc_select_dialog_material.xml"
     },
     {
+        "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/fragment_detail.xml",
+        "source": "/home/vikas/Desktop/Calender/app/src/main/res/layout/fragment_detail.xml"
+    },
+    {
         "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/abc_action_mode_bar.xml"
     },
@@ -90,6 +94,10 @@
     {
         "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/activity_detail.xml",
+        "source": "/home/vikas/Desktop/Calender/app/src/main/res/layout/activity_detail.xml"
     },
     {
         "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
@@ -156,12 +164,12 @@
         "source": "/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/table.xml",
         "source": "/home/vikas/Desktop/Calender/app/src/main/res/layout/table.xml"
+    },
+    {
+        "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/vikas/Desktop/Calender/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/home/vikas/Desktop/Calender/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",

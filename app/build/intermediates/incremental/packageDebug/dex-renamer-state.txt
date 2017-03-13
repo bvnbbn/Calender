@@ -1,4 +1,4 @@
-#Sun Mar 12 03:11:31 IST 2017
+#Tue Mar 14 03:24:05 IST 2017
 base.0=/home/vikas/Desktop/Calender/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_940927b17276d7a7fa00c13e29f3e7aa5e3a6037
 renamed.1=classes.dex
 renamed.0=classes2.dex
